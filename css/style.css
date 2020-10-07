@@ -66,5 +66,68 @@
 
   body {
      font-family: var(--font-main);
-     background-color: var(--c-dark);
-  }
+      }
+
+.front-page {
+  width: 320px;
+  background: var(--c-dark);
+  padding: 40px 10px 55px 10px;
+  box-sizing: border-box;
+}
+
+.front-page-title {
+font-family: Acrom;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+text-transform: uppercase;
+color: #FF6B08;
+text-align: center;
+}
+
+.front-page-prof {
+font-family: Acrom;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 42px;
+text-transform: uppercase;
+color: var(--txt-c-light);
+text-align: center;
+}
+
+.front-page-description {
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: var(--txt-c-light);
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hire-me-btn {
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.15rem;
+  letter-spacing: 0.05em;
+  color: var(--txt-c-accent);
+  text-decoration: none;
+}
+
+.mobile-menu {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: var(--txt-c-accent);
+}
+
+.mobile-menu i {
+  color: var(--txt-c-light);
+  width: 10px;
+  padding: 5px 5px 10px 5px;
+}
