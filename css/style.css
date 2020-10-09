@@ -540,3 +540,51 @@ margin: 0 0 30px 0;
   color: var(--txt-c-light);
   margin: 20px 0 30px 0;
 }
+
+.calculator-form {
+  background-color: var(--c-light);
+  padding: 30px 25px;
+  margin: 2%;
+}
+
+.calculator-form-title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 135%;
+  color: var(--c-dark);
+  margin-bottom: 15px;
+}
+
+.calculator-form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.calculator-form-select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--c-grey-light);
+  padding: 5px 0 15px 0;
+}
+
+.calculator-form-input-radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-lable {
+margin-right: 20px;
+}
+
+.calculator-form-input-field {
+margin-right: 10px;
+font-weight: normal;
+font-size: 17px;
+line-height: 150%;
+color: var(--c-dark);
+}
+
+.calculator-form-total-cost {
+  
+}
