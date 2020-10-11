@@ -505,6 +505,10 @@ margin: 0 0 30px 0;
   background: var(--c-dark);
 }
 
+.calculator .container {
+  padding-bottom: 75px;
+}
+
 .calculator-icon {
   width: 195px;
 }
@@ -586,5 +590,17 @@ color: var(--c-dark);
 }
 
 .calculator-form-total-cost {
-  
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin: 0;
+}
+
+.calculator-form-total {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 135%;
+  color: var(--txt-c-dark);
+  margin: 0;
 }
