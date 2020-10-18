@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        How to select a random element
+        from array in JavaScript ?
+    </title>
+</head>
+
+<body style="text-align:center;">
+
+    <h1 style="color:green;">
+        GeeksForGeeks
+    </h1>
+
+    <p id="GFG_UP" style="font-size: 15px; font-weight: bold;">
+    </p>
+
+    <button id="button" onclick="GFG_Fun()">
+        click here
+    </button>
+
+    <p id="GFG_DOWN" style="font-size: 24px; font-weight: bold; color: green;">
+    </p>
+
+    <script>
+        var up = document.getElementById('GFG_UP');
+        var down = document.getElementById('GFG_DOWN');
+
+        var arr = [
+                {
+                    question: 'I scolded ..... of the boys because they fought at school today. Jim and Tim now say they are sorry for their bad behavior',
+                    choices: ['any', 'every', 'both', 'much'],
+                    answer: 3
+                },
+                {
+                    question: 'I want to try ..... of the flavors. I like to sample each and every one of them',
+                    choices: ['all', 'any', 'much', 'numerous'],
+                    answer: 1
+                },
+                {
+                    question: "I didn't take ..... of my textbooks home with me because I finished all of my homework at school",
+                    choices: ['none', 'any', 'numerous', 'every'],
+                    answer: 2
+                }];
+
+        up.innerHTML = "Click on the button to select"
+            + " random element from the"
+            + " array.<br><br>" + arr;
+
+        function random(mn, mx) {
+            return Math.random() * (mx - mn) + mn;
+        }
+
+        function GFG_Fun() {
+            down.innerHTML = arr[Math.floor(random(1, 5)) - 1];
+        } 
+    </script>
+</body>
+
+</html>
