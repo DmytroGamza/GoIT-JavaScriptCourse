@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectRandomNumberFromArray</title>
+</head>
+<body>
+    <h1>Selecor of random Number</h1>
+    <p id="GFG_UP"></p>
+    <button id="button" onclick="GFG_Fun()">click here</button>
+    <p id="GFG_DOWN"></p>
+
+    <script>
+        let up = document.getElementById('GFG_UP');
+        let down = document.getElementById('GFG_DOWN');
+        const arr = ['asd_1', 'geeksf', 'geeks', 'copm1'];
+        up.innerHTML = 'Click on the button to check ' + 'the type of element, <br><br>' + arr;
+
+        function GFG_Fun() {
+            down.innerHTML = arr[Math.floor(Math.random() * arr.length)];
+        }
+    </script>
+</body>
+</html>
